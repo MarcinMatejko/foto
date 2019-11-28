@@ -10,6 +10,7 @@ import { FormComponent } from './components/form/form.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
