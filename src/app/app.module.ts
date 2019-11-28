@@ -6,6 +6,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FormComponent } from './components/form/form.component';
+import { InstagramComponent } from './components/instagram/instagram.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { HeaderComponent } from './components/header/header.component';
     NavbarComponent,
     CarouselComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    FormComponent,
+    InstagramComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
