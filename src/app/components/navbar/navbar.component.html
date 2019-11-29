@@ -1,17 +1,18 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container">
-  <a class="navbar-brand" href="#">AM Fotografia</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">O mnie</a>
-      <a class="nav-item nav-link" href="#">Oferta</a>
-      <a class="nav-item nav-link" href="#">Historie</a>
-      <a class="nav-item nav-link" href="#">Kontakt</a>
+    <a class="navbar-brand" routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">AM Fotografia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a class="nav-item nav-link" routerLink="/about" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">O mnie</a>
+        <a routerLink="/offer" class="nav-item nav-link" href="#" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Oferta</a>
+        <a routerLink="/stories" class="nav-item nav-link" href="#" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Historie</a>
+        <a class="nav-item nav-link" routerLink="/faq" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">FAQ</a>
+        <a class="nav-item nav-link" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Kontakt</a>
+      </div>
     </div>
   </div>
-</div>
 </nav>

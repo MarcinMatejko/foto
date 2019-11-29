@@ -9,6 +9,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { StoriesComponent } from './components/stories/stories.component';
+import { OfferComponent } from './components/offer/offer.component';
 
 
 @NgModule({
@@ -20,10 +26,16 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     FormComponent,
     InstagramComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    ContactComponent,
+    FaqComponent,
+    StoriesComponent,
+    OfferComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
