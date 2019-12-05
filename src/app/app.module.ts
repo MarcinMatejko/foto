@@ -16,6 +16,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { StoriesComponent } from './components/stories/stories.component';
 import { OfferComponent } from './components/offer/offer.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { OfferComponent } from './components/offer/offer.component';
     ContactComponent,
     FaqComponent,
     StoriesComponent,
-    OfferComponent
+    OfferComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,

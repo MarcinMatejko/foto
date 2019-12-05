@@ -34,7 +34,6 @@ export class QuestionsService {
    }
 
   getQustions(): Question[] {
-    console.log('Fetching questions asdasdasdasd');
     return this.questions;
   }
 }

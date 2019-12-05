@@ -15,8 +15,6 @@ export class FaqComponent implements OnInit {
 
   ngOnInit() {
 
-
-
     this.questions = this.questionsService.getQustions();
   }
 
