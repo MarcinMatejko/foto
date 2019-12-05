@@ -17,6 +17,8 @@ import { FaqComponent } from './components/faq/faq.component';
 import { StoriesComponent } from './components/stories/stories.component';
 import { OfferComponent } from './components/offer/offer.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NotBuildPageComponent } from './components/not-build-page/not-build-page.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { AboutPageComponent } from './components/about-page/about-page.component
     FaqComponent,
     StoriesComponent,
     OfferComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    NotFoundComponent,
+    NotBuildPageComponent
   ],
   imports: [
     BrowserModule,
