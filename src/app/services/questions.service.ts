@@ -27,7 +27,7 @@ export class QuestionsService {
       },
       {
         question: 'Jak wyglądają sesje lifestylowe w plenerze?',
-        answer: 'Fajnie, sesje wyglądają fajnie.',
+        answer: 'Wybieramy wspólnie lokalizację dogodną dla wszystkich. Może macie jakieś swoje ulubione miejsce, z którym wiążecie przemiłe wspomnienia? Pojedziemy tam wspólnie, będziecie wspominać, rozmawiać, bawić się i co jeszcze tylko chcecie, a ja uwiecznię to na zdjęciach tworząc pamiątkę na całe życie.',
         id: 4
       },
     ]
