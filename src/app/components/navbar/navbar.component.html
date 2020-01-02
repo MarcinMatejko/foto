@@ -5,15 +5,29 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
-        <a class="nav-item nav-link" routerLink="/about-page" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">O mnie</a>
-        <a routerLink="/offer" class="nav-item nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Oferta</a>
-        <a routerLink="/stories" class="nav-item nav-link" routerLink="/not-build-page" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Historie</a>
-        <a class="nav-item nav-link" routerLink="/faq" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">FAQ</a>
-        <a class="nav-item nav-link" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Kontakt</a>
-        <a class="nav-item nav-link" href="https://www.whataboutbeinghappy.com" target="_blank" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Blog</a>
-      </div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-item nav-link" routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-item nav-link" routerLink="/about-page" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">O mnie</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a routerLink="/offer" class="nav-item nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Oferta</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a routerLink="/stories" class="nav-item nav-link" routerLink="/not-build-page" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Historie</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-item nav-link" routerLink="/faq" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">FAQ</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-item nav-link" routerLink="/contact" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Kontakt</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-item nav-link" href="https://www.whataboutbeinghappy.com" target="_blank" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Blog</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
