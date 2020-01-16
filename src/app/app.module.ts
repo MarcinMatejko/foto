@@ -4,7 +4,6 @@ import { QuestionsService } from './services/questions.service';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
@@ -25,7 +24,6 @@ import { NotBuildPageComponent } from './components/not-build-page/not-build-pag
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent,
     AboutComponent,
     HeaderComponent,
     FormComponent,
