@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'foto';
+
+  onActivate(event) {
+    window.scroll(0,0);
+
+  }
+
 }
+
