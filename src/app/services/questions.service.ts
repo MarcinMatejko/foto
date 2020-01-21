@@ -11,7 +11,7 @@ export class QuestionsService {
   constructor() {
     this.questions = [
       {
-        question: 'Co to są sesje lifesylowe?',
+        question: 'Co to są sesje lifestylowe?',
         answer: 'Sesje lifestylowe to sesje pokazujące Wasze codzienne życie, bez zbędnego pozowania i upiększania rzeczywistości na siłę. Taką sesję możemy wykonać zarówno w waszym domu, jak i w ładnym miejscu w plenerze, w otoczeniu natury.',
         id: 1
       },
