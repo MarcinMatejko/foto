@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="card-header bg-transparent text-center">
+    <h2 @fadeDown class="card-title">Witaj na mojej stronie.</h2>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col">
+        <span
+          ><a class="btn-link" routerLink="/home" name="home"
+            >Aleksandra Matejko Fotografia</a
+          ></span
+        >
+      </div>
+      <div class="col">
+        <span>
+          <a
+            class="nav-item nav-link"
+            href="https://www.whataboutbeinghappy.com"
+            target="_blank"
+            rel="noopener"
+            [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+            name="Blog whataboutbeinghappy"
+            >Blog</a
+          ></span
+        >
+      </div>
+    </div>
+  </div>
+</div>
